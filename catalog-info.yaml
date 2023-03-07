@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: events_notification_api
+  description: Event Notification.
+  tags:
+    - java
+spec:
+  type: openapi
+  lifecycle: production
+  owner: transactions-team
+  definition:
+    $text: ./event-notification-api.json
