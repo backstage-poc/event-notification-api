@@ -8,6 +8,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: transactions-team
+  owner: events-team
   definition:
     $text: ./event-notification-api.json
