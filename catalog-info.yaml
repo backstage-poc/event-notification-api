@@ -5,6 +5,7 @@ metadata:
   description: Event Notification.
   annotations:
     backstage.io/techdocs-ref: dir:.
+    backstage.io/spectral-ruleset-url: https://raw.githubusercontent.com/backstage-poc/account-info-api/main/.spectral.yaml
   tags:
     - java
 spec:
